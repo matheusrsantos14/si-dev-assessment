@@ -13,3 +13,24 @@
  *= require_tree .
  *= require_self
  */
+ 
+body {
+    font-family: sans-serif;
+}
+
+form {
+
+}
+
+input {
+    display: inline;
+    border-radius: 10px;
+    padding: 10px;
+    border-style: none;
+    border: 1px solid #dadada;
+}
+
+#submitbttn {
+    padding-left: 50px;
+    padding-right: 50px;
+}

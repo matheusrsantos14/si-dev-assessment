@@ -1,6 +1,10 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<h1>Matt's App</h1>
+<p>An app for Startup Institute</p>
 
 <%= form_tag("/sms/send", method: "post") do %>
-<!-- add form elements here -->
+    <form_tag>
+        <input type="text" placeholder="Name">
+        <input type="text" placeholder="Name">
+        <input type="submit" value="Send" id="submitbttn">
+    </form_tag>
 <% end %>
