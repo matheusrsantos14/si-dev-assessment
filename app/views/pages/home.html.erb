@@ -1,10 +1,9 @@
 <h1>Matt's App</h1>
 <p>An app for Startup Institute</p>
 
-<%= form_tag("/sms/send", method: "post") do %>
-    <form_tag>
-        <textarea placeholder="Write message here!" id="message"></textarea>
-        <input type="text" placeholder="Phone Number" id="phone">
-        <input type="submit" value="Send" id="submitbttn">
-    </form_tag>
+<%= form_tag("/sms/send", method: "post", :action => "confirm") do %>
+    <textarea placeholder="Write message here!" name="message" id="message"></textarea>
+    <input type="text" name="phone" placeholder="Phone Number" id="phone">
+    <input type="submit" value="Send" id="submitbttn">
 <% end %>
+
