@@ -3,8 +3,8 @@
 
 <%= form_tag("/sms/send", method: "post") do %>
     <form_tag>
-        <input type="text" placeholder="Name">
-        <input type="text" placeholder="Name">
+        <textarea placeholder="Write message here!" id="message"></textarea>
+        <input type="text" placeholder="Phone Number" id="phone">
         <input type="submit" value="Send" id="submitbttn">
     </form_tag>
 <% end %>

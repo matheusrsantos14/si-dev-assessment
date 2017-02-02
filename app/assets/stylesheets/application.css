@@ -18,19 +18,34 @@ body {
     font-family: sans-serif;
 }
 
-form {
-
+form_tag {
 }
 
 input {
-    display: inline;
+    display: block;
     border-radius: 10px;
     padding: 10px;
     border-style: none;
     border: 1px solid #dadada;
 }
 
+textarea {
+    margin-bottom: 5px;
+    display: block;
+    font-family: sans-serif;
+    border-radius: 10px;
+    padding: 10px;
+    border-style: none;
+    border: 1px solid #dadada;
+}
+
+
 #submitbttn {
+    margin-top: 20px;
     padding-left: 50px;
     padding-right: 50px;
+    background-color: #25cf2d;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
